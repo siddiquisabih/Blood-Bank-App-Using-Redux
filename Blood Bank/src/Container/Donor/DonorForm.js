@@ -60,7 +60,7 @@ class Form extends Component {
             number: this.refs.number.getValue(),
             email: this.refs.email.getValue()
         }
-        console.log(donorInfo, "information")
+
         let userDetail = {
             donorInfo
         }
@@ -76,7 +76,7 @@ class Form extends Component {
 
                     <TextField ref="name" type="text" floatingLabelText="Name" required /><br />
                     <TextField ref="address" type="text" floatingLabelText="Address" /><br />
-                    <TextField ref="number" type="number" floatingLabelText="Number" disabled={false} /><br /><br />
+                    <TextField ref="number" type="text" floatingLabelText="Number" disabled={false} /><br /><br />
                     <TextField ref="email" type="text" floatingLabelText="Email" /><br />
 
 

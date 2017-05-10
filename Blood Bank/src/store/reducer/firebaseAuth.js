@@ -8,7 +8,6 @@ const initialState = {
     getData: "false",
     dataArray: [],
     signout: "false",
-    sendDataSucess: "false",
 }
 
 const authReducer = (state = initialState, action) => {
